@@ -1,5 +1,5 @@
 body {
-    background: #e3eadc;
+    background: #fff;
 }
 
 #scroll-container {
@@ -21,7 +21,7 @@ body {
     font-size: 10px;
     -moz-transform: translateX(-100%);
     animation: scroll-text 20s linear infinite;
-    animation-delay: 2.5s;
+    animation-delay: 0.25s;
 }
 
 @keyframes scroll-text {
@@ -33,18 +33,59 @@ body {
     }
 }
 
-
 #logo {
     display: block;
     margin: 0 auto;
-    width: 5    00px;
+    width: 300px;
     height: auto;
     padding-top: 20px;
 }
 
 .main {
-    background-color: #ffffff;
-    height: 1000px;
+    height: 600px;
     width: 500x;
     margin: 10px 250px 150px 250px;
+    padding-left: 150px;
+}
+
+/*  on the left  */
+#first-landing-image  {
+    display: inline-block;
+    background-color: grey;
+    width: 334px;
+    height: 600px;
+    transition: transform .8s;
+}
+
+#first-landing-image:hover {
+    scale: 1.03;
+}
+
+/* in the middle */
+#second-landing-image {
+    display: inline-block;
+    background-color: grey;
+    width: 334px;
+    height: 600px;
+}
+
+#second-landing-image:hover {
+    scale: 1.03;
+}
+
+/*on the right */
+#third-landing-image {
+    display: inline-block;
+    background-color: grey;
+    width: 334px;
+    height: 600px;
+}
+
+#third-landing-image:hover {
+    scale: 1.03;
+}
+
+.landing-images {
+    font-size: 0;
+
 }
